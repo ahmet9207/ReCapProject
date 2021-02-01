@@ -55,7 +55,7 @@ namespace DataAccess.Concrete.InMemory
 
         }
 
-        private List<Product> GetAllByCategory1(int carCategoryId)
+        public List<Product> GetAllByCategory1(int carCategoryId)
         {
             return _products.Where(p => p.CarId == carCategoryId).ToList();
         }

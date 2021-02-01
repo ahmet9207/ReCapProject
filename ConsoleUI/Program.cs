@@ -12,7 +12,12 @@ namespace ConsoleUI
 
             foreach (var product  in productManager.GetAll()) 
             {
+                Console.WriteLine("Kiralanan Araba-----------");
                 Console.WriteLine(product.CarBrantId);
+                Console.WriteLine("Araba Model Yılı----------");
+                Console.WriteLine(product.CarModelYear);
+                Console.WriteLine("Araba Özellikleri---------");
+                Console.WriteLine(product.CarDescription);
             }
         }
     }

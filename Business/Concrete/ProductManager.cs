@@ -8,6 +8,7 @@ using System.Text;
 
 namespace Business.Concrete
 {
+
     public class ProductManager : IProductService
     {
         IProductDal _productDal;
